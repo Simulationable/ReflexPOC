@@ -34,7 +34,7 @@ If you use this work in your research, cite as:
   author = {Thanakan Klangkasame},
   title = {ReflexPOC: A Reflex-Orchestrated Ecosystem for Emotion-Aware NPC Systems},
   year = 2025,
-  url = {https://github.com/YOUR-REPO},
+  url = {https://github.com/Simulationable/ReflexPOC},
   note = {Submitted to the Journal of Open Source Software}
 }
 ```
