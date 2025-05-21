@@ -11,8 +11,8 @@ tags:
 authors:
   - name: ธนาคาร คลังเกษม
     affiliation: Independent Researcher
-    orcid: 0000-0000-0000-0000  # Replace with actual ORCID if available
-    email: your@email.com
+    orcid: 0009-0003-1581-4277
+    email: thanakarn.klangkasame@gmail.com
 date: 2025-05-21
 ---
 
@@ -31,7 +31,7 @@ Modern NPCs often rely on linear, script-based dialogue trees that limit immersi
 ReflexPOC requires .NET 8 and a GPT-4o-compatible OpenAI API key.
 
 ```bash
-git clone https://github.com/your/repo.git
+git clone https://github.com/Simulationable/ReflexPOC
 cd ReflexPOC
 dotnet build
 dotnet run
