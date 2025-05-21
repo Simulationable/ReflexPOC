@@ -1,4 +1,6 @@
 # ReflexPOC: A Reflex-Orchestrated Companion AI System
+![JOSS Submission](https://joss.theoj.org/papers/99083415737311017f47b71db8a74fc7.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15481782.svg)](https://doi.org/10.5281/zenodo.15481782)
 
 ReflexPOC is a modular, reflex-oriented architecture for emotionally-aware NPCs. Designed with a layered behavioral control structure, ReflexPOC separates immediate reflex reactions, cognitive safety checks, trust-based overrides, and recovery behavior from generative language reasoning.
 
