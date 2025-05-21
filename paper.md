@@ -1,4 +1,3 @@
-
 ---
 title: 'ReflexPOC: A Reflex AI Companion System for Emotionally Responsive NPCs'
 tags:
