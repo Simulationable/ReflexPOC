@@ -1,53 +1,38 @@
 ---
-title: 'ReflexPOC: A Reflex AI Companion System for Emotionally Responsive NPCs'
+title: "ReflexPOC: A Reflex-Orchestrated Ecosystem Architecture for Emotion-Aware NPC Systems"
 tags:
-  - reflex AI
-  - NPC
+  - artificial intelligence
+  - game NPC
+  - reflex system
   - emotional AI
-  - GPT-4o
-  - .NET
-  - LiteDB
+  - ASP.NET
 authors:
-  - name: ธนาคาร คลังเกษม
-    affiliation: Independent Researcher
+  - name: Thanakan Klangkasame
     orcid: 0009-0003-1581-4277
     email: thanakarn.klangkasame@gmail.com
+    affiliation: 1
+affiliations:
+  - name: Independent Researcher, Bangkok, Thailand
+    index: 1
 date: 2025-05-21
 ---
 
 # Summary
 
-**ReflexPOC** is a real-time Reflex AI simulation system designed to support emotionally responsive NPCs in game and interactive environments. It integrates a six-layer reflex model capable of interpreting player states (stress and loneliness) through cognitive filtering and AI-driven decision models. Unlike traditional scripted NPCs, ReflexPOC uses GPT-4o to create emergent, personality-based interactions in both reactive and disengagement scenarios.
+ReflexPOC is a reflex-layered ecosystem architecture for building emotionally-aware NPCs in games and simulations. Unlike prompt-chained agents, ReflexPOC implements a six-layer decision logic including cognitive safety gates, trust unlocks, and recovery protocols to support emotionally safe interaction. The system is written in C# using .NET and is designed to be model-agnostic, composable, and locally testable.
 
-The architecture supports multiple AI companion types (cheerful, stoic, tsundere, etc.), and adapts its behavioral responses over time using embedded reflex triggers. Designed with modularity and local-first principles, ReflexPOC runs on .NET 8 and uses LiteDB for local data storage, requiring no external dependencies.
+# Statement of Need
 
-# Statement of need
-
-Modern NPCs often rely on linear, script-based dialogue trees that limit immersion and adaptability. ReflexPOC addresses this gap by offering a model-agnostic, reflex-driven behavior system that leverages large language models and a cognitive gatekeeper framework for more realistic interaction. It serves developers and researchers exploring emotionally responsive AI companions, reflex layers, and human-AI affective systems.
+Current NPC agents rely on monolithic LLM prompts and lack structural emotional reflex. ReflexPOC addresses this by decoupling reflex behavior, safety arbitration, and trust recovery from language generation logic.
 
 # Installation
 
-ReflexPOC requires .NET 8 and a GPT-4o-compatible OpenAI API key.
+See README.md for installation and run instructions.
 
-```bash
-git clone https://github.com/Simulationable/ReflexPOC
-cd ReflexPOC
-dotnet build
-dotnet run
-```
+# Usage
 
-# Example
+Run `dotnet run` and interactively test different personalities and distress signals to observe reflex activations.
 
-A sample output interaction shows how a "stoic" NPC companion recognizes elevated stress in the player and chooses to disengage gently:
+# Acknowledgements
 
-```
-[AI-Stoic]: “I’ll stay nearby. If you need anything, you know where I am.”
-```
-
-# Repository
-
-The source code is available at: https://github.com/your/repo
-
-# License
-
-MIT
+Thanks to the Helion Game AI Initiative for conceptual validation.

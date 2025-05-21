@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "ReflexPOC"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Klangkasame
+    given-names: Thanakan
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: 2025-05-21
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/YOUR-REPO"
